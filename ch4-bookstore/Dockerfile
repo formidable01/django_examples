@@ -15,4 +15,3 @@ RUN pip install -r requirements.txt
 
 # Copy project
 COPY . . 
-RUN gunicorn django_project.wsgi:application
