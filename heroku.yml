@@ -7,6 +7,4 @@ build:
 release:
   image: web
   command:
-    - python manage.py collectstatic --noinput
-run:
-  web: gunicorn django_project.wsgi:application
+    - python ch4-bookstore/manage.py collectstatic --noinput
