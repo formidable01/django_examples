@@ -9,4 +9,4 @@ release:
   command:
     - python manage.py collectstatic --noinput
 run:
-  web: gunicorn ch4-bookstore/django_project.wsgi:application
+  web: gunicorn django_project.wsgi:application
